@@ -1,0 +1,41 @@
+
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+table {
+    width: 100%;
+    margin-top: 25px;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: bisque;
+}
+
+td {
+    background-color: blanchedalmond;
+}
+
+select {
+    font-size: 16px;
+    padding: 5px;
+    width: 10%;
+    font-weight: bold;
+}
+
+option {
+    font-weight: normal;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>UK Weather</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>United Kingdom Weather</h1>
+    </header>
+    <section>
+        <h2>Select Country and City to View Current Weather</h2>
+        <select id="countries">
+            <option selected>Select Country</option>
+            <option value="england">England</option>
+            <option value="nireland">Northern Ireland</option>
+            <option value="scotland">Scotland</option>
+            <option value="wales">Wales</option>
+        </select>
+        <select id="cities" hidden></select>
+        <table id="weather-data"></table>
+        <div id="error-info"></div>
+    </section>
+    <script src="apiweather.js"></script>
+</body>
+</html>
